@@ -9,7 +9,7 @@ from PyQt5.QtGui import QFont
 
 TRANSLATIONS = {
     "ko_KR": {
-        "title": "Clash Rule Merger",
+        "title": "Clash Rule Provider Merger",
         "file_list_group": "병합할 파일",
         "file_list_label": "병합할 YAML 파일 목록:",
         "add_file_btn": "파일 추가",
@@ -35,7 +35,7 @@ TRANSLATIONS = {
         "save_file_dialog_title": "저장할 YAML 파일 선택"
     },
     "zh_CN": {
-        "title": "Clash Rule Merger",
+        "title": "Clash Rule Provider Merger",
         "file_list_group": "要合并的文件",
         "file_list_label": "YAML 文件列表:",
         "add_file_btn": "添加文件",
@@ -61,7 +61,7 @@ TRANSLATIONS = {
         "save_file_dialog_title": "选择保存的YAML文件"
     },
     "en_US": {
-        "title": "Clash Rule Merger",
+        "title": "Clash Rule Provider Merger",
         "file_list_group": "Files to Merge",
         "file_list_label": "YAML Files List:",
         "add_file_btn": "Add Files",
@@ -94,7 +94,7 @@ class YAMLMerger(QMainWindow):
         self.file_paths = []
         self.file_contents = []
         self.output_path = None
-        self.settings = QSettings("ClashRuleMerger", "ClashRuleMerger")
+        self.settings = QSettings("ClashRuleProviderMerger", "ClashRuleProviderMerger")
         self.current_language = self.settings.value("language", "en_US")
         self.initUI()
         
