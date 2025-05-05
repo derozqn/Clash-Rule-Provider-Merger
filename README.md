@@ -13,7 +13,7 @@
 <a name="english"></a>
 ## [English]
 
-Clash Rule Merger is a GUI tool for merging and sorting Clash rule provider YAML files.
+Clash Rule Provider Merger is a GUI tool for merging and sorting Clash rule provider YAML files.
 
 ### Key Features
 
@@ -60,7 +60,7 @@ python yaml_merger.py
 <a name="中文"></a>
 ## [中文]
 
-Clash Rule Merger 是一个用于合并和排序 Clash 规则提供程序 YAML 文件的图形界面工具。
+Clash Rule Provider Merger 是一个用于合并和排序 Clash 规则提供程序 YAML 文件的图形界面工具。
 
 ### 主要功能
 
@@ -107,7 +107,7 @@ python yaml_merger.py
 <a name="한국어"></a>
 ## [한국어]
 
-Clash Rule Merger는 Clash 규칙 제공자 YAML 파일을 병합하고 정렬하는 GUI 도구입니다.
+Clash Rule Provider Merger는 Clash 규칙 제공자 YAML 파일을 병합하고 정렬하는 GUI 도구입니다.
 
 ### 주요 기능
 
